@@ -1,0 +1,44 @@
+/* 3 ways to use selector */
+            body{
+                /* BAckground color is the back of the webpage */
+                background-color:rgb(192, 127, 23);
+                /* color is the text color */
+                color: rgb(218, 218, 218);
+                /*Changes the size of the text*/
+                font-size: large;
+                text-align: center;
+            }
+            header{
+                /* Puts the text in the center*/
+                text-align: center;
+            }
+            h1{
+                 background-color: rgb(rgb(192, 127, 23), green, blue);
+                color: rgb(218, 218, 218);
+            }
+            /* This is a custom class */
+            .redtext{
+                color: rgb(218, 218, 218);
+            }
+            #MemeForCSC{
+                /*position: absolute;*/
+                left: 25%;
+                top:25%;
+                width:600px;
+                margin-right: 200px;
+                
+                
+            }
+            nav{
+                height: 600px;
+                width: 200px;
+                float: left;
+                padding: 5px;
+                line-height: 30px;
+            }
+            footer{
+                text-align: center;
+                margin-right: 200px;
+                
+
+            }
