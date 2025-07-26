@@ -1,3 +1,5 @@
+
+<!-- Logan Socks -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,10 +22,15 @@
 
         </header>
     <main>
+        <!-- Creates a place to display messages -->
         <div id = divMessage></div>
+        <!-- Creates a form for user input -->
         <form method="post" onsubmit="return validateForm();">
+            <!-- Labels the input section so the user knows what to type here -->
             <label for="txtFirstName">First Name:</label>
+            <!-- Decakres what te type of input and declares what we call the input value -->
             <input type="text" id="txtFirstName" name="txtFirstName">
+            <!-- Creates a line break -->
             <br>
             <label for="txtLastName"> Last Name:</label>
             <input type="text" id="txtLastName" name="txtLastName">
@@ -31,12 +38,13 @@
             <label for="txtZip">Zip Code:</label>
             <input type="text" id="txtZip" name="txtZip">
             <br><br>
+            <!-- This input is for the submit button -->
             <input type="submit" value="Submit Inputs">
 
             
         </form>
     </main>
-    <!-- Move script to external file -->
+    <!-- Calls our JavaScript to be used-->
     <script src="JsForStrings.js">
 
     </script>

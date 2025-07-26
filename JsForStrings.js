@@ -19,6 +19,7 @@
 
             //Create an error f full name has eithern1 character or more than 20
             if (fullName.length == 1 || fullName.length > 20){
+                //Changing the div message to display the text we want
                 divMessage.innerHTML = "Access Denied...Bad Full Name";
             }
             //Checking if zip code is exactly 5 characters if not give error
