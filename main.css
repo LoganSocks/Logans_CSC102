@@ -11,21 +11,26 @@
             header{
                 /* Puts the text in the center*/
                 text-align: center;
+                padding-right: 240px;
             }
             h1{
                  background-color: rgb(rgb(192, 127, 23), green, blue);
                 color: rgb(218, 218, 218);
+                margin: 0;
             }
             /* This is a custom class */
             .redtext{
                 color: rgb(218, 218, 218);
             }
+            
+            /*<img id="MemeForCSC" src="MemeForCSC.png" alt="X-Men meme image">*/
             #MemeForCSC{
-                /*position: absolute;*/
+                position: absolute;
                 left: 25%;
                 top:25%;
                 width:600px;
                 margin-right: 200px;
+                
                 
                 
             }
@@ -39,6 +44,9 @@
             footer{
                 text-align: center;
                 margin-right: 200px;
-                
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                padding-bottom: 5px;
 
             }

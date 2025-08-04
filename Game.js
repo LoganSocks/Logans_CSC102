@@ -9,7 +9,7 @@
             console.log("die1=" + die1)
             console.log("die2=" + die2)
             console.log("die3=" + die3)
-            let sum = die1 + die2 + die3;
+            let sum = die1 * die2 * die3;
             console.log("sum=" + sum)
             //The console log is logging the results to the console hidden from the user
 
