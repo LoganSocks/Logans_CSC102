@@ -1,0 +1,43 @@
+<!-- Logan Socks -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sound</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>SuperHero Theme</h1>
+         <nav>
+                <a href="index.html">Home</a><br>
+                <a href="boards.html">Boards</a><br>
+                <a href="game.html">3-Dice Game</a><br>
+                <a href="strings.html">Secret Message</a><br>
+                <a href="palindrome.html">Palindrome Checker</a><br>
+                <a href="NflTeam.html">NFL Team Stats</a><br>
+                <a href="sound.html">Sound Page</a>
+            </nav>
+    </header>
+    <main>
+        <!-- HTML way to add sound to your page -->
+         <!--
+        <audio controls>
+            <source src="superhero-theme-7963.mp3" type="audio/mpeg">
+         </audio>
+        -->
+         <!-- Add buttons for stopping, playing, and adding the music -->
+        <button onclick="addSound();">Add Sound</button>
+        <br><br>
+        <button onclick="playSound();" id="btnPlay" hidden="true">Play Sound</button>
+        <br><br>
+        <button onclick="pauseSound();" id="btnPause" hidden="true">Pause Sound</button>
+        <br><br>
+    </main>
+
+    <script src="JsForSound.js"></script>
+        
+    
+</body>
+</html>

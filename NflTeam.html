@@ -1,0 +1,48 @@
+<!-- Logan Socks -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFL Team Page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+     <!-- Add header with menu here -->
+      <header>
+        <h1>Check your team's stats</h1>
+            <!-- The nav tags create navigation links to click between pages -->
+            <nav>
+                <a href="index.html">Home</a><br>
+                <a href="boards.html">Boards</a><br>
+                <a href="game.html">3-Dice Game</a><br>
+                <a href="strings.html">Secret Message</a><br>
+                <a href="palindrome.html">Palindrome Checker</a><br>
+                <a href="NflTeam.html">NFL Team Stats</a><br>
+                <a href="sound.html">Sound Page</a>
+            </nav>
+
+        </header>
+        <main>
+            <!-- Form for user input -->
+            <form name="frmTeamName" id="frmTeamName" onsubmit="updateTeamStats(event)">
+            <label for="txtWord">Enter An NFL Teams Name</label>
+            <input type="text" id="userTeam" name="txtWord"><br>
+            <input type="submit" value="Enter">
+        </form>
+        </main>
+        <!-- Create multiple divs -->
+        <div id="teamName">Your Team's Name</div>
+        <div id="teamWins">Total Wins</div>
+        <div id="teamLosses">Total Losses</div>
+        <div id="teamTies">Total Ties</div>
+        <div id="superbowlWins">Total Superbowl Wins</div>
+        <div id="winPercent">Win Percentage</div>
+        <div id="notATeam"></div>
+        
+        
+        <script src="JsForNFLPage.js"></script>
+
+    
+</body>
+</html>
